@@ -14,34 +14,36 @@ author: SpringSparrow
 copyright: All rights reserved
 
 share:
-  facebook: true
-  twitter: true
-  gplus: true
-  linkedin: true
-  pinterest: true
+  facebook: false
+  twitter: false
+  gplus: false
+  linkedin: false
+  pinterest: false
   email: true
+  qq: true
+  weibo: true
 
 social:
   github: songsparrow
   # QQ:
   # WeChat:
-  # bilibili:
+  bilibili: 273163255
   # stackoverflow: ''
   # linkedin:
   # instagram: ''
   # lastfm: ''
-  # rss: feed.xml
+  rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-171274672-1
 # Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
-yandex_metrica:
+yandex_metrica: true
 
 
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: streetturtle
+# Set this to your disqus shortname to enable comments. 
+# Note that the 'comments' setting below must also be true.
+# Individual posts can override 'comments' to disable on a post-by-post basis
+disqus: springsparrow
 comments: false
 
 permalink: /:year/:month/:title/

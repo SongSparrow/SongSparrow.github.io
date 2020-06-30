@@ -58,6 +58,28 @@
     </li>
     {% endif %}
 
+    {% if site.share.qq %}
+    <li class="share-qq">
+      <a href="http://connect.qq.com/widget/shareqq/index.html?url={{ site.url | append: page.url }}&title={{page.title}}&summary={{page.description}}" target="_blank" title="QQ">
+        <span class="fa-layers fa-fw fa-2x">
+            <i class="far fa-circle"></i>
+            <i class="fab fa-qq" data-fa-transform="shrink-8"></i>
+        </span>
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.share.weibo %}
+    <li class="share-weibo">
+      <a href="" target="_blank" title="QZone">
+        <span class="fa-layers fa-fw fa-2x">
+            <i class="far fa-circle"></i>
+            <i class="fab fa-weibo" data-fa-transform="shrink-8"></i>
+        </span>
+      </a>
+    </li>
+    {% endif %}
+    
     {% if site.share.email %}
     <li class="share-envelope">
       <a href="mailto:?&subject={{page.title}}&body={{page.description | append: ' ' | append: site.url | append: page.url}}" target="_blank" title="Email">

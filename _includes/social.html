@@ -4,8 +4,8 @@
 
   {% if site.social.github %}
   <li>
-    <a title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"><i
-        class="fab fa-github fa-2x"></i></a>
+    <a title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank">
+      <img src="https://maxcdn.icons8.com/Share/icon/Logos/github_filled1600.png"></a>
   </li>
   {% endif %}
 
@@ -38,10 +38,17 @@
   </li>
   {% endif %}
 
+  {% if site.social.bilibili %}
+  <li>
+    <a title="{{ site.social.bilibili }} on Bilibili" href="https://space.bilibili.com/{{ site.social.bilibili }}"
+      target="_blank"><img src="https://www.parklu.com/wp-content/uploads/2019/02/Chinese-Long-form-Video-Content-Creators-are-Far-from-Dead-600x640.png" width="100"></a>
+  </li>
+  {% endif %}
+
   {% if site.social.rss %}
   <li>
-    <a title="{{ site.social.rss }} RSS" href="{{ site.social.rss | relative_url }}" target="_blank"><i
-        class="fas fa-rss fa-2x"></i></a>
+    <a title="{{ site.social.rss }} RSS" href="{{ site.social.rss | relative_url }}" target="_blank">
+      <img src="https://maketaxfair.net/wp-content/themes/maketaxfair/assets/img/RSS-icon.png"></a>
   </li>
   {% endif %}
 
