@@ -10,19 +10,22 @@ url: http://streetturtle.github.io
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: '/'
 
-author: Pavel Makhov
-copyright: 2015-2018
+author: SpringSparrow
+copyright: All rights reserved
 
 share:
-  facebook: false
-  twitter: false
-  gplus: false
-  linkedin: false
-  pinterest: false
+  facebook: true
+  twitter: true
+  gplus: true
+  linkedin: true
+  pinterest: true
   email: true
 
 social:
   github: songsparrow
+  # QQ:
+  # WeChat:
+  # bilibili:
   # stackoverflow: ''
   # linkedin:
   # instagram: ''
