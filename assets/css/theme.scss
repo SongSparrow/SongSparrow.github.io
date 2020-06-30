@@ -120,7 +120,10 @@ ul.share-buttons {
     .fa-google-plus-g,
     .fa-linkedin-in,
     .fa-envelope,
-    .fa-pinterest-p {
+    .fa-pinterest-p,
+    .fa-qq,
+    .fa-weibo,
+    .fa-weixin {
       color: #ffffff
     }
     a {
@@ -151,6 +154,7 @@ ul.share-buttons {
   li.share-envelope .fa-circle { color: #3B5998;}
   li.share-qq .fa-circle{color: #dddddd;}
   li.share-weibo .fa-circle{color: #ffff00;}
+  li.share-weixin .fa-circle{color: #3CA2A2;}
 
   li:hover {
     -webkit-transform: scale(1.3,1.3);

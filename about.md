@@ -48,4 +48,6 @@ title: 关于
 ## 联系方式
 - 邮箱：`SpringSparrow9@gmail.com`
 
-- bilibili：[个人空间](https://space.bilibili.com/273163255)
+- 手机：`15730343165`
+
+- 企鹅号：`3334684495`

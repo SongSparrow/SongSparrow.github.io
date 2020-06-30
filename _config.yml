@@ -22,6 +22,7 @@ share:
   email: true
   qq: true
   weibo: true
+  weixin: true
 
 social:
   github: songsparrow
