@@ -45,7 +45,7 @@ yandex_metrica: true
 disqus: springsparrow
 comments: false
 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
 #paginate: 3
