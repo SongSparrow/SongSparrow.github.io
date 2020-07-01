@@ -8,11 +8,39 @@ tags:
 - python
 ---
 
+#### 1. 读取CSV文件时出错
+
+**错误描述：**
+
+```tex
+UnicodeEncodeError:'mbcs' codec can't encode characters in position 0--1: invalid character
+```
+
+**原因：**文件路径不对，很可能是字符的编码方式不对造成的
+
+**解决方式：**
+
+```python
+data = pd.read_csv(open(os.path.join(data_path, file_name), 'r', encoding='utf-8'))
+```
 
 
-'mbcs' codec can't encode characters in position 0--1: invalid character
 
-文件路径不对
+#### 2. 创建csv文件时出错
+
+**错误描述：**
+
+```tex
+FileNotFoundError: [Errno 2] No such file or directory: 'results/01/21/2020.csv'
+```
+
+**原因：** python可以创建新的文件，但是不可以创建新文件夹
+
+**解决方案：**
+
+```python
+date.replace("/","-")
+```
 
 
 
