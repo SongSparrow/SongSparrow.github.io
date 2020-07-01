@@ -8,7 +8,7 @@ title: 标签列表
 		<h1>标签列表</h1>  
 		<ul>
 			{% for tag in site.tags %}
-			<li><a href="{{ '/tag/' | append:tag[0] | relative_url }}">{{ tag[0] }}</a></li>
+			<li class="labelitem"><a href="{{ '/tag/' | append:tag[0] | relative_url }}">{{ tag[0] }}</a></li><br>
 			{% endfor %}
 		</ul>
 	</div>

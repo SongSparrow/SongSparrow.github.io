@@ -9,11 +9,12 @@ title: 博客归档
 			{% capture currentyear %}{{post.date | date: "%Y-%m"}}{% endcapture %}
 			{% if currentyear != year %}
 				{% unless forloop.first %}</ul>{% endunless %}
-					<h5>{{ currentyear }}</h5>
+					<h3>{{ currentyear }}</h3>
 					<ul class="posts">
 					{% capture year %}{{currentyear}}{% endcapture %} 
 				{% endif %}
-			<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+			<li class="titleitem"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+			<br>
 	{% endfor %}
 	</div>
 </div>
