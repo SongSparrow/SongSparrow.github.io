@@ -80,6 +80,16 @@ tags:
 
 
 
+- 获取当前日日期与时间
+
+  ```bash
+  set d=%date:~0,10%
+  set t=%time:~0,8%
+  echo %d% %t%
+  ```
+
+  
+
 
 
 
