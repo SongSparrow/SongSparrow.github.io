@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: SpringSparrow
+name: 约逍遥一生飘浪
 description: Software Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
@@ -10,7 +10,7 @@ url: https://songsparrow.github.io
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: 
 
-author: SpringSparrow
+author: 约逍遥一生飘浪
 copyright: All rights reserved
 
 share:
