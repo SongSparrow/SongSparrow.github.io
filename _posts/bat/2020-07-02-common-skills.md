@@ -17,9 +17,6 @@ chcp 65001
 echo test
 echo 中文测试
 pause
-
-
-
 ```
 
 # 2. 启动指定的应用程序
@@ -27,5 +24,6 @@ pause
 ```bash
 ::启动TIM
 start /d “d:\Tenccent\TIM\Bin” TIM.exe
+::bat命令无法实现将启动后的程序进行最小化，虽然vbs有最小化的命令，但是效果也不明显。 
 ```
 
