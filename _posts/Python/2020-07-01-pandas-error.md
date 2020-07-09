@@ -44,3 +44,28 @@ date.replace("/","-")
 
 
 
+# 筛选数据出错
+
+
+
+https://blog.csdn.net/qq_43003405/article/details/100005786
+
+
+
+
+
+# 数据类型转换出错
+
+https://www.cnblogs.com/chaojiyingxiong/p/10189357.html
+
+
+
+# json.dump中文编码问题
+
+https://blog.csdn.net/qq284489030/article/details/90260699
+
+
+
+# 超大json文件解析
+
+https://www.cnblogs.com/hexiaoqi/p/13040074.html

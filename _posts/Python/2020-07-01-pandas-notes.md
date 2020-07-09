@@ -121,6 +121,12 @@ df.dropna(axis=0, how='any', inplace=True)
 
 
 
+# 填充某一列
+
+https://blog.csdn.net/luoganttcc/article/details/78573669
+
+
+
 # 4. 获取DataFrame的行数与列数
 
 ## 行数
@@ -234,4 +240,18 @@ data[u'buy_place'] = data[u'buy_place'].astype(str)
 data[u'buy_place'] = data[u'buy_place'].apply(lambda x :x.split(' ')[-1])
 data.to_csv('price.csv',index=False, encoding='utf-8')python
 ```
+
+
+
+# 根据条件获取元素所在的位置（索引）
+
+https://blog.csdn.net/xwd18280820053/article/details/72614734
+
+
+
+# 删除行和列
+
+https://www.cnblogs.com/everfight/p/pandas_drop.html
+
+
 
