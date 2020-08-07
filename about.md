@@ -17,16 +17,6 @@ title: 关于
 
 2. 锋舞断云踪，战天下崩裂如涛，凤鸣势如虹，愁啼葬群雄！
 
-## 爱好
-
-1. [辣条](http://www.weilongshipin.com/)
-
-2. [决战！平安京](http://moba.163.com/index.html)
-
-3. [金光布袋戏](https://www.bilibili.com/bangumi/media/md25632727)
-
-4. [github](https://github.com/)
-
 ## 技能
 1. MySQL
 
@@ -38,7 +28,6 @@ title: 关于
 
 5. Machine Learning
 
-6. 科学上网
 
 ## 经历 
 1. CQU
@@ -46,7 +35,7 @@ title: 关于
 2. 待定...
 
 ## 联系方式
-- 邮箱：`SpringSparrow9@gmail.com`
+- 邮箱：`SpringSparrow9@163.com`
 
 - 手机：`15730343165`
 
