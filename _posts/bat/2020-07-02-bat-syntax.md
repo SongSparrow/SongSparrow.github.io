@@ -5,7 +5,7 @@ description: Windows bat 批处理文件
 date: 2020-07-02 20:51:00 +0800
 share: true
 tags:
-- drafts
+- bat
 ---
 
 

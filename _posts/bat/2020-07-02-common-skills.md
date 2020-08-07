@@ -5,7 +5,7 @@ description: bat常用的功能
 date: 2020-07-02 09:57:00 +0800
 share: true
 tags:
-- drafts
+- bat
 ---
 
 # 1. chcp 切换控制台编码
